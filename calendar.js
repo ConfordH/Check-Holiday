@@ -1,4 +1,4 @@
-const k = "YourCalendarificAPIKey";
+const k = "WoB3YuRhQdecCHaOjeiJ0GALS04WKVA6";
 
 const userCountry = document.getElementById("country-input");
 const userYear = document.getElementById("year-input");

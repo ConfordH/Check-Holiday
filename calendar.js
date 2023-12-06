@@ -21,7 +21,6 @@ $("#today-button").on("click", useToday);
 $("#reset-button").on("click", clearHolidays);
 $("form").on("submit", handleGetHolidays);
 
-// API call for country list
 function handleGetCountries() {
   $.ajax({
     url: `https://calendarific.com/api/v2/countries?&api_key=${k}`,
